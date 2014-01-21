@@ -1,4 +1,4 @@
-module SmartyPants
+module SocialSavvy
   class Mention
     attr_reader :mention
 

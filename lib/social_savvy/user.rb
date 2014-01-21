@@ -1,4 +1,4 @@
-module SmartyPants
+module SocialSavvy
   class User
     attr_reader :username
     
@@ -16,5 +16,5 @@ module SmartyPants
   end
 end
 
-# SmartyPants::Config.host = "http://foo.com"
+# SocialSavvy::Config.host = "http://foo.com"
 # Content-Type: 

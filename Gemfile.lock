@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    SmartyPants (0.0.1)
+    SocialSavvy (0.0.1)
       faraday
       hashie
 
@@ -34,7 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  SmartyPants!
+  SocialSavvy!
   bundler (~> 1.5)
   pry
   rake

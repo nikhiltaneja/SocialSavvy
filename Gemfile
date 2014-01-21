@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in SmartyPants.gemspec
+# Specify your gem's dependencies in SocialSavvy.gemspec
 gemspec

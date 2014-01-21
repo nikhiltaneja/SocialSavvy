@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'smarty_pants/version'
+require 'social_savvy/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "SmartyPants"
-  spec.version       = SmartyPants::VERSION
+  spec.name          = "SocialSavvy"
+  spec.version       = SocialSavvy::VERSION
   spec.authors       = ["Nikhil Taneja"]
   spec.email         = ["nikhil.a.taneja@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}

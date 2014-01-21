@@ -4,7 +4,7 @@
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-require 'smarty_pants.rb'
+require 'social_savvy.rb'
 require 'pry'
 
 RSpec.configure do |config|
