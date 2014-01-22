@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SocialSavvy::VERSION
   spec.authors       = ["Nikhil Taneja"]
   spec.email         = ["nikhil.a.taneja@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Wrapper gem for SocialSmarts API"
+  spec.description   = ""
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -23,5 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_dependency "faraday"
   spec.add_development_dependency "pry"
+  spec.add_development_dependency "vcr"
   spec.add_dependency "hashie"
 end
