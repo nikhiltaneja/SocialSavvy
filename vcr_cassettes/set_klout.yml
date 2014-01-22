@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/update_klout?score=10&user=jsl_demo_07
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 201
+      message: 'Created '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Ua-Compatible:
+      - chrome=1
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"3a89f7fa53799ec57c8308b95ac6fcd9"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 39530b72-57d7-4295-9f09-d972d9090e1e
+      X-Runtime:
+      - '0.030636'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2013-11-22)
+      Date:
+      - Wed, 22 Jan 2014 23:39:01 GMT
+      Content-Length:
+      - '488'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"username":"jsl_demo_07","klout":10.0,"message":"@jsl_demo_01
+        @jsl_demo_07 respond via SS","tweet_timestamp":"2014-01-21T22:07:46.000Z","responded":false,"archived":true,"favorited":null,"created_at":"2014-01-22T01:38:44.886Z","updated_at":"2014-01-22T02:24:26.524Z","user_id":1,"profile_image_uri":"http://pbs.twimg.com/profile_images/411971979143438336/WUZlmIBt_normal.png","tweet_id":425751602092199938,"flagged":false,"retweeted":false,"followers_count":22,"friends_count":22}'
+    http_version: 
+  recorded_at: Wed, 22 Jan 2014 23:39:01 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/klout.json?user=jsl_demo_07
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Ua-Compatible:
+      - chrome=1
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"43a1437f7f656cd8be7c996c58719e0a"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e0ca0608-accd-44f0-8d9e-6333c380a4e8
+      X-Runtime:
+      - '0.014623'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2013-11-22)
+      Date:
+      - Wed, 22 Jan 2014 23:39:01 GMT
+      Content-Length:
+      - '4'
+      Connection:
+      - Keep-Alive
+      Set-Cookie:
+      - request_method=GET; path=/
+    body:
+      encoding: UTF-8
+      string: '10.0'
+    http_version: 
+  recorded_at: Wed, 22 Jan 2014 23:39:01 GMT
+recorded_with: VCR 2.8.0
