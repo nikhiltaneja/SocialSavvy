@@ -13,6 +13,15 @@ module SocialSavvy
         Mention.new(mention)
       end
     end
+
+    def klout
+      response = Faraday.get("http://localhost:3000/api/v1/klout.json?user=#{username}")
+      response.body.to_i
+    end
+
+    def klout=(number)
+      Faraday.post("http://localhost:3000/api/v1/update_klout?user=#{username}&score=#{number}")
+    end
   end
 end
 
