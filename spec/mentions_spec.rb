@@ -12,6 +12,6 @@ describe SocialSavvy::Mention do
     twitter_handle = 'jsl_demo_07'
     user = SocialSavvy::User.new(twitter_handle)
     mentions = user.mentions
-    mentions.first.klout.should >= 50.0
+    mentions.first.klout.should >= 0
   end
 end
