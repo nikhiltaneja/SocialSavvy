@@ -2,7 +2,7 @@ module SocialSavvy
   class Klout
     def self.get_score_for(username)
       response = Faraday.get("http://localhost:3000/api/v1/klout.json?user=#{username}")
-      JSON.parse(response.body)['score'].round
+      response.body.to_f
     end
   end
 end
