@@ -1,6 +1,6 @@
 # SocialSavvy
 
-TODO: Write a gem description
+This gem interacts with the SocialSmarts API
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install SocialSavvy
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
